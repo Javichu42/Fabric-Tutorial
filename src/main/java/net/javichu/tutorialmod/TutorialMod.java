@@ -1,6 +1,7 @@
 package net.javichu.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.javichu.tutorialmod.block.ModBlocks;
 import net.javichu.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,5 +17,6 @@ public class TutorialMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

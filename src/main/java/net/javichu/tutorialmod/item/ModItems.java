@@ -9,8 +9,9 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-        public  static final Item DRILL = registerItem("drill",
+        public static final Item DRILL = registerItem("drill",
         new Item(new FabricItemSettings().group(ItemGroup.TOOLS)));
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(TutorialMod.MOD_ID, name), item);
     }
