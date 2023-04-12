@@ -1,3 +1,9 @@
 {
-  "item.tutorialmod.drill": "Taladro"
+  "item.tutorialmod.drill": "Taladro",
+  "item.tutorialmod.mythril_ingot": "Lingote de Mythril",
+
+  "block.tutorialmod.mythril_block" : "Bloque de Mythril",
+
+
+  "itemGroup.tutorialmod.javichu" : "Javichu"
 }
